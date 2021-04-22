@@ -22,4 +22,8 @@ public class ExampleModDefs{
 	public static final RegistryObject<Item> COPPER = ITEMS.register("copper",
 			() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS))
 	);
+
+	public static final RegistryObject<Item> BIBLE = ITEMS.register("bible",
+			() -> new Item(new Item.Properties().group(ItemGroup.MATERIALS))
+	);
 }

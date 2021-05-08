@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "examplemod:copper_block"
+    },
+    {
+      "item": "examplemod:copper_block"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "examplemod:copper",
+    "count": 18
+  }
+}

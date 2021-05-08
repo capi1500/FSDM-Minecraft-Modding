@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "examplemod:copper"
+    }
+  },
+  "result": {
+    "item": "examplemod:copper_block"
+  }
+}

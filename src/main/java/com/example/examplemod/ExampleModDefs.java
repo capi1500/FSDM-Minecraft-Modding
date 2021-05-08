@@ -46,4 +46,23 @@ public class ExampleModDefs{
 					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)
 			)
 	);
+	
+	public static final RegistryObject<Block> COPPER_BLOCK = BLOCKS.register("copper_block",
+			() -> new Block(
+					Block.Properties
+							.create(Material.IRON)
+							.hardnessAndResistance(5.0f, 6.0f)
+							.sound(SoundType.STONE)
+							.harvestTool(ToolType.PICKAXE)
+							.harvestLevel(1)
+							.setRequiresTool()
+			)
+	);
+	
+	public static final RegistryObject<Item> COPPER_BLOCK_ITEM = ITEMS.register("copper_block",
+			() -> new BlockItem(
+					COPPER_BLOCK.get(),
+					new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)
+			)
+	);
 }

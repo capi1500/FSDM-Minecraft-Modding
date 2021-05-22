@@ -42,7 +42,8 @@ public class FeatureGenerator{
 										ExampleModDefs.COPPER_BLOCK.get().getDefaultState(),
 										10
 								)
-						).func_242731_b(64)
+						).range(64).square()
+						 .func_242731_b(64)
 				)
 		);
 	}

@@ -1,5 +1,9 @@
 {
   "item.examplemod.copper": "Copper",
   "block.examplemod.copper_ore": "Copper Ore",
-  "block.examplemod.copper_block": "Copper Block"
+  "block.examplemod.copper_block": "Copper Block",
+  "item.examplemod.ruby_helmet": "Ruby Helmet",
+  "item.examplemod.ruby_chestplate": "Ruby Chestplate",
+  "item.examplemod.ruby_leggings": "Ruby Leggigns",
+  "item.examplemod.ruby_boots": "Ruby Boots"
 }

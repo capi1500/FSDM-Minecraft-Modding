@@ -24,7 +24,7 @@ public class FeatureGenerator{
 						Feature.ORE.withConfiguration(
 								new OreFeatureConfig(
 										OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
-										ExampleModDefs.COPPER_ORE.get().getDefaultState(),
+										Blocks.COPPER_ORE.get().getDefaultState(),
 										4
 								)
 						).range(64).square()
@@ -39,7 +39,7 @@ public class FeatureGenerator{
 						Feature.ORE.withConfiguration(
 								new OreFeatureConfig(
 										OreFeatureConfig.FillerBlockType.BASE_STONE_OVERWORLD,
-										ExampleModDefs.COPPER_BLOCK.get().getDefaultState(),
+										Blocks.COPPER_BLOCK.get().getDefaultState(),
 										10
 								)
 						).range(64).square()

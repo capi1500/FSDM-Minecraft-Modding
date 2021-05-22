@@ -37,8 +37,8 @@ public class ExampleMod{
 		// Register ourselves for server and other game events we are interested in
 		MinecraftForge.EVENT_BUS.register(this);
 		
-		
-		ExampleModDefs.init();
+		Blocks.init();
+		Items.init();
 	}
 	
 	private void setup(final FMLCommonSetupEvent event){

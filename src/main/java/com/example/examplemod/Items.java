@@ -41,26 +41,26 @@ public class Items{
 			)
 	);
 	
-	public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () -> new ArmorItem(
-			ArmorMaterial.RUBY,
+	public static final RegistryObject<ArmorItem> COPPER_HELMET = ITEMS.register("copper_helmet", () -> new ArmorItem(
+			ArmorMaterial.COPPER,
 			EquipmentSlotType.HEAD,
 			new Item.Properties().group(ItemGroup.COMBAT)
 	));
 	
-	public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () -> new ArmorItem(
-			ArmorMaterial.RUBY,
+	public static final RegistryObject<ArmorItem> COPPER_CHESTPLATE = ITEMS.register("copper_chestplate", () -> new ArmorItem(
+			ArmorMaterial.COPPER,
 			EquipmentSlotType.CHEST,
 			new Item.Properties().group(ItemGroup.COMBAT)
 	));
 	
-	public static final RegistryObject<ArmorItem> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () -> new ArmorItem(
-			ArmorMaterial.RUBY,
+	public static final RegistryObject<ArmorItem> COPPER_LEGGINGS = ITEMS.register("copper_leggings", () -> new ArmorItem(
+			ArmorMaterial.COPPER,
 			EquipmentSlotType.LEGS,
 			new Item.Properties().group(ItemGroup.COMBAT)
 	));
 	
-	public static final RegistryObject<ArmorItem> RUBY_BOOTS = ITEMS.register("ruby_boots", () -> new ArmorItem(
-			ArmorMaterial.RUBY,
+	public static final RegistryObject<ArmorItem> COPPER_BOOTS = ITEMS.register("copper_boots", () -> new ArmorItem(
+			ArmorMaterial.COPPER,
 			EquipmentSlotType.FEET,
 			new Item.Properties().group(ItemGroup.COMBAT)
 	));

@@ -14,7 +14,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import java.util.function.Supplier;
 
 public enum ArmorMaterial implements IArmorMaterial{
-	RUBY("ruby",
+	COPPER("copper",
 			15,
 			new int[]{2, 5, 6, 2},
 			9,

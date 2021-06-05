@@ -5,5 +5,10 @@
   "item.examplemod.copper_helmet": "Copper Helmet",
   "item.examplemod.copper_chestplate": "Copper Chestplate",
   "item.examplemod.copper_leggings": "Copper Leggigns",
-  "item.examplemod.copper_boots": "Copper Boots"
+  "item.examplemod.copper_boots": "Copper Boots",
+  "item.examplemod.copper_pickaxe": "Copper Pickaxe",
+  "item.examplemod.copper_shovel": "Copper Shovel",
+  "item.examplemod.copper_axe": "Copper Axe",
+  "item.examplemod.copper_hoe": "Copper Hoe",
+  "item.examplemod.copper_sword": "Copper Sword"
 }

@@ -98,4 +98,11 @@ public class Items{
 			-2.4f,
 			new Item.Properties().group(ItemGroup.COMBAT)
 	));
+	
+	public static final RegistryObject<SpawnEggItem> BIG_SKELETON_SPAWN_EGG = ITEMS.register("big_skeleton_spawn_egg", () -> new SpawnEggItem(
+			Entities.BIG_SKELETON.get(),
+			12698049, 
+			4802889,
+			new Item.Properties().group(ItemGroup.MISC)
+	));
 }

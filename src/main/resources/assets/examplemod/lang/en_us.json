@@ -10,5 +10,6 @@
   "item.examplemod.copper_shovel": "Copper Shovel",
   "item.examplemod.copper_axe": "Copper Axe",
   "item.examplemod.copper_hoe": "Copper Hoe",
-  "item.examplemod.copper_sword": "Copper Sword"
+  "item.examplemod.copper_sword": "Copper Sword",
+  "entity.examplemod.big_skeleton": "Big Skeleton"
 }

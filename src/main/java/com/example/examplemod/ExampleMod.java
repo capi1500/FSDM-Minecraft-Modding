@@ -1,10 +1,14 @@
 package com.example.examplemod;
 
+import com.example.examplemod.entities.BigSkeleton;
+import com.example.examplemod.entities.BigSkeletonRenderer;
 import net.minecraft.block.Block;
+import net.minecraft.entity.ai.attributes.GlobalEntityTypeAttributes;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DeferredWorkQueue;
+import net.minecraftforge.fml.client.registry.RenderingRegistry;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -37,12 +41,15 @@ public class ExampleMod{
 		// Register ourselves for server and other game events we are interested in
 		MinecraftForge.EVENT_BUS.register(this);
 		
+		Entities.init();
 		Blocks.init();
 		Items.init();
 	}
 	
 	private void setup(final FMLCommonSetupEvent event){
 		DeferredWorkQueue.runLater(() -> FeatureGenerator.registerOres());
+		GlobalEntityTypeAttributes.put(Entities.BIG_SKELETON.get(), BigSkeleton.createBigSkeletonAttributes().create());
+		RenderingRegistry.registerEntityRenderingHandler(Entities.BIG_SKELETON.get(), (manager -> new BigSkeletonRenderer(manager)));
 	}
 	
 	private void doClientStuff(final FMLClientSetupEvent event){
